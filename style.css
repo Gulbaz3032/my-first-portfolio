@@ -1,0 +1,237 @@
+/* google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+.home {
+    margin-left: 33%;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.css {
+    color: #D1711F;
+}
+
+.main {
+    width: 100%;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+li a {
+    font-size: 21px;
+    position: relative;
+}
+
+li a::after {
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: #D1711F;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.7s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.name {
+    color: #D1711F;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+
+}
+
+.Developer {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+
+}
+
+.bottom {
+    border-bottom: 2px solid #D1711F;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.horizontal {
+    height: 18vh;
+    width: 2px;
+    border-width: 0;
+    background-color: #D1711F;
+}
+
+.color {
+    color: #D1711F;
+}
+
+.me {
+    font-size: 20px;
+}
+
+.bottom1 {
+    border-bottom: 2px solid #D1711F;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.my {
+    border-bottom: 2px solid #D1711F;
+    width: 15%;
+    margin: auto;
+
+}
+
+.card1 {
+    border: 2px solid #D1711F;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cd5 {
+    background-color: #D1711F;
+    color: white;
+}
+
+.card1:hover {
+    background-color: #D1711F;
+    color: white;
+    transition: .5s;
+    color: white !important;
+    user-select: none;
+    border: #D1711F solid 2px !important;
+    transform: scale(1.06);
+
+}
+
+.fonts {
+    color: white;
+    text-align: center;
+    border: 2px solid #D1711F;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+
+}
+
+.btn {
+    border: 2px solid #D1711F;
+    color: white;
+    border-radius: 34px;
+}
+
+.btn:hover {
+    background-color: #D1711F;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #D1711F;
+}
+
+.pictures:hover {
+    color: aliceblue;
+}
+
+.java {
+    color: #D1711F;
+}
+
+.icons1 {
+    font-size: 70px;
+}
+
+.fonts:hover {
+    background-color: #D1711F;
+}
+
+.progress-container {
+
+    position: relative;
+    height: 20px;
+    margin-top: 100px;
+}
+
+.progress-container p {
+    font-size: large;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+.progress-bar p {
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-container:hover .progress-bar {
+    width: 95%;
+    background-color: #D1711F;
+}
+
+.end {
+    border: 1px solid #D1711F;
+    width: 100%;
+}
+
+.card2 {
+    border: 2px solid #D1711F;
+}
+
+.footer {
+    background-color: #3C3C3C;
+}
+
+.row2 {
+    width: 70%;
+    border: 2px solid #D1711F;
+    margin-left: 16%;
+}
+
+@media screen and (max-width:500px) {
+    .fonts {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        padding-bottom: 20px;
+
+    }
+
+    .me {
+        font-size: smaller;
+    }
+}
